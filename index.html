@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ==================fontawesome=============== -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!--owl carousel  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!-- =================aos css ================ -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- =================custom css ================ -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--------------------- header------------------------------>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div id="menu-nav" class="fa fa-bars"></div>
+                <a href="index.html" class="logo">
+                    <span>H</span>oliday
+                </a>
+
+                <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a href="#book">book</a>
+                    <a href="#packages">packages</a>
+                    <a href="#gallery">gallery</a>
+                    <a href="#review">review</a>
+                    <a href="#contact">contact</a>
+                </nav>
+
+                <div class="icons">
+                    <i class="fa fa-search" id="btn-search"></i>
+                    <i class="fa fa-user" id="btn-login"></i>
+                </div>
+
+                <form class="search-container not-visible">
+                    <input type="search" id="search-bar" placeholder="search here ...">
+                    <label for="search-bar" class="fa fa-search"></label>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!--------x------------ header-----------------x------------>
+    <!---------------------- login form ------------------------>
+    <div class="login-form">
+        <form>
+            <i class="fa fa-times" id="close"></i>
+
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter Your Email">
+            <input type="password" class="box" placeholder="Enter Your Password">
+            <input type="submit" value="Login Now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">sign up</a></p>
+        </form>
+    </div>
+    <!-- ------x------------login form ---------------x--------->
+    <!-- -------------------home ------------------------------->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 data-aos="fade-down" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1000"
+                data-aos-mirror="true">LOVE & Travel
+            </h1>
+            <p data-aos="fade-up" data-aos-offset="200" data-aos-delay="5   00" data-aos-duration="1000"
+                data-aos-mirror="true">
+                TAKE ADVANTAGE OF THIS AMAZING EXCLUSIVE OFFER DON'T MISS THIS OPPORTUNITY FOR YOUR BUSINESS
+            </p>
+            <button data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="btn btn-register"
+                data-aos-mirror="true">
+                register
+            </button>
+
+        </div>
+        <div class="controls">
+            <span class="video-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="video-btn" data-src="images/vid-2.mp4"></span>
+            <span class="video-btn" data-src="images/vid-3.mp4"></span>
+            <span class="video-btn" data-src="images/vid-4.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-------x---------------- home ------------------x--------->
+    <!------------------------ book ---------------------------->
+    <section id="book" class="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="image" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500"
+                    data-aos-delay="150">
+                    <img src="images/book-img.svg" alt="booknow">
+                </div>
+                <div class="form-container" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <form>
+                        <div class="input-box">
+                            <h3>where to</h3>
+                            <input type="text" placeholder="place name">
+                        </div>
+                        <div class="input-box">
+                            <h3>how many</h3>
+                            <input type="number" placeholder="number of guests">
+                        </div>
+                        <div class="input-box">
+                            <h3>arrivals</h3>
+                            <input type="date">
+                        </div>
+                        <div class="input-box">
+                            <h3>leaving</h3>
+                            <input type="date">
+                        </div>
+                        <input type="submit" value="book now" class="btn booknow">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------x-------------- book------------------ x------ -->
+    <!-----------------------packages -------------------------->
+    <section id="packages" class="packages">
+        <h1 class="heading">
+            <span>P</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="packs">
+            <div class="container">
+                <div class="row">
+                    <div class="package" data-aos="fade-up" data-aos-duration="2500">
+                        <div class="image-box">
+                            <div class="city">vietnam</div>
+                            <img src="images/p-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="heading-box">
+                            <h3>
+                                <a href="#">
+                                    Tourism Paradise Island Koh Rong Cambodia 2 Days 1 Night
+
+                                </a>
+                            </h3>
+                        </div>
+                        <p>
+                            Varius massa maecenas et id dictumst mattis. Donec fringilla ac
+
+                        </p>
+                        <div class="sparator"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="duration">
+                                    <img src="images/date.svg" alt="">
+                                    <div class="details-duration">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="group">
+                                    <img src="images/group.svg" alt="">
+                                    <div class="details-group">
+                                        <h5>group size</h5>
+                                        <span>18 people</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sparator"></div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="left">170 L.E</div>
+                                <div class="right"><button class="btn btn-book">book now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package" data-aos="fade-up" data-aos-duration="2900">
+                        <div class="image-box">
+                            <div class="city">vietnam</div>
+                            <img src="images/p-2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="heading-box">
+                            <h3>
+                                <a href="#">
+                                    Half-Day Chiang Mai City and Temples Tour Including Doi Suthep
+
+                                </a>
+                            </h3>
+                        </div>
+                        <p>
+                            Varius massa maecenas et id dictumst mattis. Donec fringilla ac
+
+                        </p>
+                        <div class="sparator"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="duration">
+                                    <img src="images/date.svg" alt="">
+                                    <div class="details-duration">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="group">
+                                    <img src="images/group.svg" alt="">
+                                    <div class="details-group">
+                                        <h5>group size</h5>
+                                        <span>2 people</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sparator"></div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="left">170 L.E</div>
+                                <div class="right"><button class="btn btn-book">book now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package" data-aos="fade-up" data-aos-duration="2800">
+                        <div class="image-box">
+                            <div class="city">vietnam</div>
+                            <img src="images/p-3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="heading-box">
+                            <h3>
+                                <a href="#">
+                                    Tourism Paradise Island Koh Rong Cambodia 2 Days 1 Night
+                                </a>
+                            </h3>
+                        </div>
+                        <p>
+                            Varius massa maecenas et id dictumst mattis. Donec fringilla ac
+
+                        </p>
+                        <div class="sparator"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="duration">
+                                    <img src="images/date.svg" alt="">
+                                    <div class="details-duration">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="group">
+                                    <img src="images/group.svg" alt="">
+                                    <div class="details-group">
+                                        <h5>group size</h5>
+                                        <span>10 people</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sparator"></div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="left">170 L.E</div>
+                                <div class="right"><button class="btn btn-book">book now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="image-box">
+                            <div class="city">vietnam</div>
+                            <img src="images/p-4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="heading-box">
+                            <h3>
+                                <a href="#">
+                                    Tourism Paradise Island Koh Rong Cambodia 2 Days 1 Night
+
+                                </a>
+                            </h3>
+                        </div>
+                        <p>
+                            Varius massa maecenas et id dictumst mattis. Donec fringilla ac
+
+                        </p>
+                        <div class="sparator"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="duration">
+                                    <img src="images/date.svg" alt="">
+                                    <div class="details-duration">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="group">
+                                    <img src="images/group.svg" alt="">
+                                    <div class="details-group">
+                                        <h5>group size</h5>
+                                        <span>5 people</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sparator"></div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="left">170 L.E</div>
+                                <div class="right"><button class="btn btn-book">book now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="image-box">
+                            <div class="city">vietnam</div>
+                            <img src="images/p-5.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="heading-box">
+                            <h3>
+                                <a href="#">
+                                    Tourism Paradise Island Koh Rong Cambodia 2 Days 1 Night
+
+                                </a>
+                            </h3>
+                        </div>
+                        <p>
+                            Varius massa maecenas et id dictumst mattis.
+
+                        </p>
+                        <div class="sparator"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="duration">
+                                    <img src="images/date.svg" alt="">
+                                    <div class="details-duration">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="group">
+                                    <img src="images/group.svg" alt="">
+                                    <div class="details-group">
+                                        <h5>group size</h5>
+                                        <span>6 people</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sparator"></div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="left">170 L.E</div>
+                                <div class="right"><button class="btn btn-book">book now</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="image-box">
+                            <div class="city">vietnam</div>
+                            <img src="images/p-6.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="heading-box">
+                            <h3>
+                                <a href="#">
+                                    Tourism Paradise Island Koh Rong Cambodia 2 Days 1 Night
+
+                                </a>
+                            </h3>
+                        </div>
+                        <p>
+                            Varius massa maecenas et id dictumst mattis. Donec fringilla
+
+                        </p>
+                        <div class="sparator"></div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="duration">
+                                    <img src="images/date.svg" alt="">
+                                    <div class="details-duration">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="group">
+                                    <img src="images/group.svg" alt="">
+                                    <div class="details-group">
+                                        <h5>duration</h5>
+                                        <span>2 days</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sparator"></div>
+                        <div class="price">
+                            <div class="row">
+                                <div class="left">170 L.E</div>
+                                <div class="right"><button class="btn btn-book">book now</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all text-center mt">
+                    <a href="#">view all packages</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------x--------------packages --------------x---------->
+    <!-----------------------discount -------------------------->
+    <div class="discount">
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <span>Multi-Tours</span>
+                    <h3>Discount on Quantity </h3>
+                    <p>Book a tour today and enjoy exclusive savings on any future trip you book! There’s no time limit
+                        or expiry date on these savings</p>
+                    <img src="images/Group-296-2.png" alt="">
+                    <div class="find mt">
+                        <a href="#">find out more</a>
+                    </div>
+                </div>
+                <div class="img-right">
+                    <img src="images/Group-208-1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------x--------------discount --------------x---------->
+    <!-----------------------gallery -------------------------->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+                <!-- <span>s</span> -->
+            </h1>
+
+            <div class="row mt">
+                <div class="box">
+                    <img src="images/g-1.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-2.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-3.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-4.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-5.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-6.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-7.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-8.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/g-9.jpg" alt="">
+                    <div class="box-content">
+                        <h3>Amazing places</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!</p>
+                        <a href="#" class="btn btn-gallery">read more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---------x--------------gallery --------------x---------->
+    <!-----------------------review -------------------------->
+    <div class="review" id="review">
+        <div class="container">
+            <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+            </h1>
+            <div class="slider-container">
+                <div class="owl-carousel owl-theme">
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                            eram
+                            malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/testimonials-1.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/testimonials-2.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/testimonials-3.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                            eram
+                            malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/testimonials-4.jpg" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                            eram
+                            malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/pic1.png" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                            eram
+                            malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/pic2.png" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+
+                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                            minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/pic3.png" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                        <p class="d-inline">
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                            eram
+                            malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam
+                        </p>
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        <div class="image-box">
+                            <img src="images/pic4.png" alt="" class="rounded-circle">
+                        </div>
+                        <div class="item-desc">
+                            <h3>Jena Karlis</h3>
+                            <h4>Freelancer</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------x--------------review --------------x---------->
+    <!-----------------------contact -------------------------->
+    <div class="contact" id="contact">
+        <div class="container">
+            <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+            </h1>
+            <div class="row">
+                <div class="left mt">
+                    <div class="contact-box">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <div class="contact-info">
+                            <h3>Location: </h3>
+                            <p>elgarhi Street, Beni suef, Egypt </p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <div class="contact-info">
+                            <h3>Email: </h3>
+                            <p>ahmedomar135791@gmail.com</p>
+                        </div>
+
+                    </div>
+                    <div class="contact-box">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <div class="contact-info">
+                            <h3>Call:</h3>
+                            <p>01273354213</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="your name"
+                                    required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="your email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="message"></textarea>
+                            </div>
+                            <div class="btn-message">
+                                <input type="submit" value="send message" class="btn btn-book">
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---------x--------------contact --------------x---------->
+    <!-----------------------footer -------------------------->
+    <footer>
+        <div class="column">
+            <a href="index.html" class="logo">
+                <span>H</span>oliday
+            </a>
+            <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</a>
+            <a href="https://www.facebook.com/ahmeomar3010/" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ahmedomar470/" title="Instagram"><i class="fa fa-instagram"></i></a>
+            <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="column">
+            <a class="footer_title">OTHER LINKS</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="column">
+            <a class="footer_title">SHORT CUT</a>
+            <a href="">Our Services</a>
+            <a href="">Our Blog</a>
+            <a href="">About Us</a>
+        </div>
+
+        <div class="column">
+            <a class="footer_title">GET IN TOUCH</a>
+            <a title="Address"><i class="fa fa-map-marker"></i> elgarhi street, benisuef, Egypt</a>
+            <a href="emailto:" title="Email"><i class="fa fa-envelope"></i> ahmedomar135791@gmail.com</a>
+            <a href="tel:" title="Contact"><i class="fa fa-phone"></i> 01273354213</a>
+        </div>
+
+        <div class="sub-footer">
+            © CopyRights 2021 Holiday || All rights reserved
+        </div>
+    </footer>
+    <!---------x--------------footer --------------x---------->
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!--=========aos js =======  -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!--=========custom js =======  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
